@@ -3,10 +3,13 @@ import React, { useState } from 'react';
 
 const Cart = (props) => {
     const { cart, set_cart } = props;
+
     const [item, setItem] = useState("");
 
     let total = 0;
+
     for (const product of cart) {
+
         total = total + product.price;
     }
 
@@ -16,10 +19,13 @@ const Cart = (props) => {
 
 
     const chooseOne = () => {
+
         if (cart.length === 0) {
+
             alert("you didn't choose anything");
             return;
         }
+
         const index = Math.floor(Math.random() * cart.length);
         setItem(cart[index].name);
     }

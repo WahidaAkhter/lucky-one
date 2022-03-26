@@ -22,3 +22,17 @@
     padding: 10px;
     text-align: center;
 }
+@media only screen and (max-width: 688px) {
+    .products-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       padding-bottom: 15px;
+       padding-left: 25px;
+       
+    }
+    .shop-container{
+        display: grid;
+        grid-template-columns:5fr;
+    }
+
+}

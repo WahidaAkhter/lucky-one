@@ -1,3 +1,11 @@
+# My Repository Link
+
+click here to visit my repo: https://github.com/Programming-Hero-Web-Course4/lucky-one-WahidaAkhter#getting-started-with-create-react-app
+
+# My live site link 
+
+click here to visit my site: https://toys-store.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
