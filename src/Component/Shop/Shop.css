@@ -7,3 +7,12 @@
     grid-template-columns: repeat(3,1fr);
     gap: 45px;
 }
+.choose-btn{
+    background-color: #FFE0B3;
+    border-radius: 8px 8px 8px 8px ;
+    border: none;
+    margin: 5px;
+}
+.choose-btn:hover{
+    background-color: orangered;
+}
