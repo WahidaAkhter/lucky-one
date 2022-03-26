@@ -18,6 +18,9 @@ const Shop = () => {
     const handleAddToCart = (product) => {
         const newCart = [...cart, product];
         setCart(newCart);
+        if (newCart.length > 4) {
+            alert("you shop too much");
+        }
     }
 
     return (
@@ -34,7 +37,7 @@ const Shop = () => {
 
             <div className="cart-container">
 
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} set_cart={setCart}></Cart>
 
             </div>
         </div>
