@@ -1,6 +1,4 @@
-# My Repository Link
 
-click here to visit my repo: https://github.com/Programming-Hero-Web-Course4/lucky-one-WahidaAkhter#getting-started-with-create-react-app
 
 # My live site link 
 
